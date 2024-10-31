@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link rel="stylesheet" href="service.css">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/31471b5735.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <h1>Our Services</h1>
+      <div class="row">
+        <div class="service">
+          <i class="fa-solid fa-user-nurse"></i>
+          <h2>Adult Companion Services</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-hand-holding-medical"></i>
+          <h2>Individualized Home Supports</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-hospital-user"></i>
+          <h2>Individualized Home Supports with Family Training</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-person-cane"></i>
+          <h2>Respect Care in or out of Home</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-moon"></i>
+          <h2>Night Supervision</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-briefcase-medical"></i>
+          <h2>24 Hour Emergency Assistance</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-hospital"></i>
+          <h2>IHS with and without Training</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="service">
+          <i class="fa-solid fa-people-group"></i>
+          <h2>In Home Family</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+
+      </div>
+      <div class="copyright">
+    <p> Copyright &copy; 2024 Clerk Home Health Care | All rights reserved.</p>
+  </div>
+    </div>
+
+    
+
+
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+    
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    
+    </script>
+</body>
+</html>
