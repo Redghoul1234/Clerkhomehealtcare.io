@@ -179,8 +179,10 @@ img{
   justify-content: space-between;
 }
 
-.logo-icon,
-.logo-text,
+.img{
+  width: 100px;
+}
+
 .nav-link,
 .phone-icon,
 .phone-number{
@@ -246,6 +248,9 @@ img{
   .navOpen-btn,
   .media-icons{
     display: block;
+  }
+  .img{
+    width: 80px;
   }
   .nav .menu-content{
     position: fixed;
@@ -384,13 +389,13 @@ img{
 .homeSubtitle{
   text-align: center;
   font-size: var(--normal-font);
-  color: var(--white-color);
+  color: red;
 }
 
 .homeTitle{
   text-align: center;
   font-size: var(--big-font);
-  color: var(--white-color);
+  color: cyan;
 }
 
 
