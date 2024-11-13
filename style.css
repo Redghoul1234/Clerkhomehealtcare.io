@@ -201,7 +201,7 @@ img{
 }
 
 .image{
-  width: 200px;
+  width: 400px;
 }
 
 .nav-link,
@@ -274,7 +274,7 @@ img{
     width: 80px;
   }
   .image{
-    width: 200px;
+    width: 300px;
   }
   .nav .menu-content{
     position: fixed;
