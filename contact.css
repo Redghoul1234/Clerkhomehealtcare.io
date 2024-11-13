@@ -61,6 +61,10 @@ img{
   width: 100%;
 }
 
+.image{
+  width: 450px;
+}
+
 .section-content{
   max-width: 0 auto;
   padding: 0 20px;
@@ -247,6 +251,10 @@ header .navbar{
 
   .img{
     width: 20px;
+  }
+
+  .image{
+    width: 450px;
   }
 
   body.show-mobile-menu header::before{
