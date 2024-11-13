@@ -254,7 +254,7 @@ header .navbar{
   }
 
   .image{
-    width: 450px;
+    width: 300px;
   }
 
   body.show-mobile-menu header::before{
